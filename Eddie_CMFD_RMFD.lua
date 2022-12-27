@@ -1,6 +1,6 @@
 _  = function(p) return p; end;
-name = _('Left & Right MFD');
-Description = 'Left MFCD on the left, Right MFCD on the right'
+name = _('Center & Right MFD');
+Description = 'Center MFCD on the left, Right MFCD on the right'
 Viewports =
 {
      Center =
@@ -15,7 +15,7 @@ Viewports =
      }
 }
 
-LEFT_MFCD =
+CENTER_MFCD =
 {
      x = 3920;
      y = 0;
